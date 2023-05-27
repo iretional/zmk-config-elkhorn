@@ -1,0 +1,19 @@
+if BOARD_ELKHRON_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Elkhorn"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if BOARD_ELKHRON_LEFT || BOARD_ELKHRON_RIGHT
+
+config BOARD
+    default "elkhorn"
+
+config ZMK_SPLIT
+    default y
+
+endif

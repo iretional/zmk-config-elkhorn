@@ -1,0 +1,5 @@
+config SHIELD_ELKHRON_V1_LEFT
+    def_bool $(shields_list_contains,elkhorn_left)
+
+config SHIELD_ELKHRON_V1_RIGHT
+    def_bool $(shields_list_contains,elkhorn_right)

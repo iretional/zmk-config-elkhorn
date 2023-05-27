@@ -1,0 +1,10 @@
+#
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+#
+
+config BOARD_ELKHRON_LEFT
+    bool
+
+config BOARD_ELKHRON_RIGHT
+    bool

@@ -1,0 +1,14 @@
+#
+# Copyright (c) 2023 Ireh Choi
+# SPDX-License-Identifier: MIT
+#
+
+config BOARD_ELKHRON_V1_LEFT
+    bool "elkhorn left v1"
+    depends on SOC_NRF52833_QIAA
+    select BOARD_ELKHRON_LEFT
+
+config BOARD_ELKHRON_V1_RIGHT
+    bool "elkhorn right v1"
+    depends on SOC_NRF52833_QIAA
+    select BOARD_ELKHRON_RIGHT
